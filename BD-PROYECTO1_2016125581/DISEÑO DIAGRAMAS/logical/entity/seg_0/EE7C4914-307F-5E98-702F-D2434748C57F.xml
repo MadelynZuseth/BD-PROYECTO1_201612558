@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE7C4914-307F-5E98-702F-D2434748C57F" name="PARTIDO_POLITICO">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-16 14:17:18 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PARTIDO" id="A898A14A-9CD6-DABC-380B-B78C24FCC424">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 14:44:49 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="2A03FA58-F1B6-CF14-EF60-11F4A377F934">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 14:45:14 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SIGLAS" id="741B6326-719D-B45C-2D90-9AAC2A162FFF">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 14:45:23 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_FUNDACION" id="FD13511D-0689-6875-146A-5B1BD6135EAE">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 14:45:28 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52F04948-B2E5-70E3-B7E7-5095C4092F62" name="PARTIDO_POLITICO PK">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 14:45:13 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A898A14A-9CD6-DABC-380B-B78C24FCC424</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

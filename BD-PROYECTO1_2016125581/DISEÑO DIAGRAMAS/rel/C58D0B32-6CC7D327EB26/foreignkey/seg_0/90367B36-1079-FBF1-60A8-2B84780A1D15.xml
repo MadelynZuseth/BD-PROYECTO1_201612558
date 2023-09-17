@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90367B36-1079-FBF1-60A8-2B84780A1D15" containerWithKeyObject="03D4B471-C740-DF57-B620-4991A8CE36CC" localFKIndex="0C30502D-A497-0E0F-72E3-7FFC4498477A" name="MESA_VOTACION_DEPARTAMENTOS_FK">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 11:14:54 UTC</createdTime>
+<generatorID>3F627FCA-7ED1-2AF0-48A3-43BC6A8337F9</generatorID>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<referredTableLongName>DEPARTAMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F13E6243-4AE4-27D9-1361-5BE65C7A63B7</referredTableID>
+<keyObject>17F29012-9B3A-1867-DD06-4C285CCBFE02</keyObject>
+<referredKeyID>17F29012-9B3A-1867-DD06-4C285CCBFE02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DEPARTAMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

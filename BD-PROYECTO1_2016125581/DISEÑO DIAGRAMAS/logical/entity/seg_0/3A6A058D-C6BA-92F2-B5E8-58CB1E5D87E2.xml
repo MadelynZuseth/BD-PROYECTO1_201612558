@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A6A058D-C6BA-92F2-B5E8-58CB1E5D87E2" name="CARGOS">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 10:46:21 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARGO" id="662E42C0-4312-19C8-FF82-B6D8312DDAD7">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 10:46:44 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="18D15A2E-46CD-7018-C765-C1CF23149B6E">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 10:47:01 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE154D4C-0DCF-EC3D-8286-ECE7762CF587" name="CARGOS PK">
+<createdBy>MADELYN</createdBy>
+<createdTime>2023-09-17 10:46:59 UTC</createdTime>
+<ownerDesignName>DISEÑO DIAGRAMAS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3CC6D37E-B3F2-3CD0-259A-D72D55D04D98" value="true"/>
+<item key="C58D0B32-30B2-BB72-6FCC-6CC7D327EB26" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>662E42C0-4312-19C8-FF82-B6D8312DDAD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
